@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;    
+    align-content: center;
+    justify-content: center;
+    background-color: #ddd;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;    
+    align-content: center;
+    justify-content: center;
+}
+
+#gameContainer {
+    /* height: 95vh;
+    max-height: 1000px;
+    aspect-ratio: 1 / 1; */
+    background-color: grey;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#gameCard {
+    /* flex: 0 0 25%; */
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gameCard img {
+    width: 100%;
+}
+
+#ujJatek {
+    width: 30vw;
+    aspect-ratio: 3 / 1;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    top: calc();
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#ujJatek * {
+    margin: 10px;
+}
